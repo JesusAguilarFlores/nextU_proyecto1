@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Proyecto HTML">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Jesús Aguilar">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Educaci&oacute;n - Curriculum Vitae: Jes&uacute;s Aguilar Flores </title>
+</head>
+<body>
+
+
+<header style="border-color: #b3b3ff;border-bottom-style: solid; border-width: 3px; border-radius: 15px">
+<!--
+Colocar la imagen svg con el logo
+ -->
+ <h1>
+	 <img src="images/logos/LogoIniciales.svg" width="40px" height="40px" alt="logo iniciales">
+	 Curriculum Vitae
+ </h1>
+	<h2>Datos Personales</h2>
+	<h3>
+	Nombre: Jes&uacute;s Aguilar Flores<br>
+	Fecha de nacimiento: 01 de abril de 1983<br>
+	Lugar de nacimiento: Morelia, Michoac&aacute;n
+	</h3>
+</header>
+
+<!-- links de navegación -->
+<nav>
+	<ul style="list-style-type: none; text-align: center">
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="index.html">INICIO</a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="educacion.html">EDUCACION</a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="experiencia.html">EXPERIENCIA</a></li>
+	</ul>
+</nav>
+
+<!--Contenido propio de cada página -->
+<article style="border-color: #b3b3ff; border-style: solid; border-width: 3px; border-radius: 15px">
+<h2>Educaci&oacute;n</h2>
+<!-- Tabla de estudios-->
+<table border="1">
+	<thead>
+		<th>A&ntilde;o</th>
+		<th>Instituci&oacute;n</th>
+		<th>Lugar</th>
+		<th>¿Culmin&oacute;?</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1998</td>
+			<td>Secundaria Colegio Guadalupe Victoria</td>
+			<td>Guanajuato</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2001</td>
+			<td>Preparatoria Tom&aacute;s de Aquino</td>
+			<td>Michoac&aacute;n</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2008</td>
+			<td>Instituto Tecnol&oacute;gico de Celaya</td>
+			<td>Guanajuato</td>
+			<td>Si</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- formulario de estudios -->
+<h3>Agregar estudios</h3>
+<form>
+<p>
+<label><strong>A&ntilde;o: </strong></label>
+<select>
+	<option value="2016">2016</option>
+	<option value="2017">2017</option>
+	<option value="2018">2018</option>
+</select>
+</p>
+
+<p>
+<label><strong>Instituci&oacute;n: </strong></label>
+<input type="text" placeholder="Ejemplo: UNAM" required />
+</p>
+
+<p>
+<label><strong>Lugar: </strong></label>
+<textarea cols="16" rows="2"></textarea>
+</p>
+
+<p>
+<strong>Culmin&oacute;: </strong>
+<input type="radio" name="culmino" value="Si"> Si
+  <input type="radio" name="culmino" value="No"> No
+</p>
+
+<p>
+<input type="submit" value="Enviar" />
+</p>
+</form>
+
+</article>
+
+
+<!--información de contacto-->
+<footer style="border-color: #b3b3ff;border-bottom-style: solid; border-width: 3px; border-radius: 15px">
+<h3>Contacto y redes sociales</h3>
+	<ul style="list-style-type: none;">
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="mailto:ja.freestyle@gmail.com" target="_blank"><img src="images/logos/logo_email.png" width="25" height="25" alt="email" title="email" /></a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="http://www.facebook.com" target="_blank"><img src="images/logos/logo_Facebook.png" target="_blank" width="25" height="25" alt="Facebook" title="Facebook" /></a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="http://www.twitter.com" target="_blank"><img src="images/logos/logo_twitter.png" target="_blank" width="25" height="25" alt="Twitter" title="Twitter" /></a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="http://www.instagram.com" target="_blank"><img src="images/logos/logo_instagram.png" target="_blank" width="25" height="25" alt="Instagram" title="Instagram" /></a></li>
+		<li style="display: inline;  padding: 0 1em 0 0;"><a href="http://www.youtube.com" target="_blank"><img src="images/logos/logo_youtube.jfif" target="_blank" width="25" height="25" alt="Youtube" title="Youtube" /></a></li>
+	</ul>
+</footer>
+</body>
+</html>
